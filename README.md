@@ -12,7 +12,9 @@ learn [AWS Copilot CLI](https://aws.github.io/copilot-cli/)
 
 * Application - a group of related services, environments, and pipelines
 * Environments - environment can have its own version of a service running allowing you to create a "test" and "production" environment
-
+* Service - your code and all of the supporting infrastructure needed to get it up and running on AWS
+* Jobs - ephemeral ECS tasks that are triggered by an event.  uses CloudWatch's rate expressions.  Scheduled Jobs are composed of an AmazonECS Task Definition, Task Role, Task Execution Role, a Step Function State Machine for retrying on failures, and finally an Event Rule to trigger the state machine.
+* Pipelines - release pipeline that deploys your service whenever you push to your git repository. (At this time, Copilot supports GitHub, Bitbucket, and CodeCommit repositories.) When a push is detected, your pipeline will build your service, push the image to ECR, and deploy to your environments.
 ### Notes
 
 * copilot cli automatically creates thw following stacks
