@@ -43,6 +43,7 @@ copilot app show
 
 copilot svc ls
 
+# create new service (web, backend, scheduled)
 copilot svc init
 
 copilot svc show
