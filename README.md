@@ -22,6 +22,7 @@ learn [AWS Copilot CLI](https://aws.github.io/copilot-cli/)
         ![](https://www.evernote.com/l/AAFuJxIjJk9CnIj2PLZgRPE00acVAbuftYkB/image.png)
     * `StackSet-aws-copilot-playground-infrastructure-777bf4f7-f4a1-469e-bbff-5113f346b47e`
         ![](https://www.evernote.com/l/AAEi6LD4-VxJOIFL2e84M4nrNp8l_TsMZlwB/image.png)
+* similar dev workflow to Elastic Beanstalk (eb), Cloud Foundry (cf), heroku.
 
 ### Files and Directories
 
